@@ -6,9 +6,9 @@ on:
 
 jobs:
   image_push:
-    runs-on: java_build
+    runs-on: ip-172-31-87-110
     env:
-      DOCKER_IMAGE: ankit1111/petapp:${{ github.sha }}
+      DOCKER_IMAGE: jeetsidhu281/cicd_project:${{ github.sha }}
 
     steps:
       - name: Build Docker Image
