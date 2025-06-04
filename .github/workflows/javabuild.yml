@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: ip-172-31-87-110
+    runs-on: JavaBuild
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3

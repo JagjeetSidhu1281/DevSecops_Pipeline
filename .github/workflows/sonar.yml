@@ -6,7 +6,7 @@ on:
 
 jobs:
   sonar:
-    runs-on: ip-172-31-87-110
+    runs-on: JavaBuild
     #needs: build  # Ensures Sonar runs after build succeeds
     steps:
       - name: SonarCloud Scan
